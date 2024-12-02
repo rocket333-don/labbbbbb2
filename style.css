@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Source Sans 3", sans-serif;
+}
+a{
+    color: #607CE6;
+    text-decoration: none;
+}
+body{
+    padding: 32px 20%;
+}
+.flex{
+    display: flex;
+}
+
+.logo{
+    width: 180px;
+    height: 38px;
+}
+.top_header{
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+.email, .tel{
+    text-align: end;
+}
+.email{
+    margin-right: 50px;
+}
+.email_text, .tel_text{
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.email_text{
+    text-decoration: underline;
+}
+
+.menu{
+justify-content: space-between;
+margin-top: 16px;
+}
+.menu_item{
+    color: black;
+}
+.menu_call{
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+}
+.menu_call img{
+    margin-right: 5px;
+}
+
+.vstuplenie{
+    margin-top: 80px;
+}
+.vstuplenie_heading{
+    font-size: 60px;
+    font-weight: 700;
+}
+.vstuplenie_description{
+    margin:50px 100px;
+}
+.zavod_img{
+    margin-top: 25px;
+}
+.description{
+    margin-top: 80px;
+}
+.description_heading{
+    font-size: 48px;
+}
+.description_img{
+    width: 580px;
+    height: 280px;
+    margin-top: 32px;
+}
+.description_text{
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.description_img2{
+    width: 580px;
+    height: 280px;
+    margin-top: 122px;
+}
+
